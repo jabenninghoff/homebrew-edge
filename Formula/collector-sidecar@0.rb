@@ -3,11 +3,12 @@ class CollectorSidecarAT0 < Formula
   homepage "https://github.com/Graylog2/collector-sidecar"
   url "https://github.com/Graylog2/collector-sidecar/archive/0.1.4.tar.gz"
   sha256 "3d73f8054a52411ff6d71634bc93b23a55372477069fcfad699876f82ae22ce8"
+  head "https://github.com/Graylog2/collector-sidecar.git"
 
   depends_on "glide" => :build
   depends_on "go" => :build
   depends_on "mercurial" => :build
-  depends_on "filebeat@5" => :run
+  depends_on "filebeat" => :run
 
   def install
     ENV["GOPATH"] = buildpath
