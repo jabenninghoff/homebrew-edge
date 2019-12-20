@@ -17,6 +17,6 @@ cask 'ctivo' do
                '~/Library/Cookies/com.cTiVo.cTiVo.binarycookies',
                '~/Library/Logs/cTiVo',
                '~/Library/Preferences/com.cTiVo.cTiVo.plist',
-               '~/Library/Saved Application State/com.cTiVo.cTiVo.savedState',
+               '~/Library/Saved Application State/com.cTiVo.cTiVo.savedState'
              ]
 end
