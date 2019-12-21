@@ -10,6 +10,6 @@ cask 'blackthorne' do
 
   zap trash: [
                '~/Library/Application Support/Blizzard/Blackthorne',
-               '~/Library/Saved Application State/com.blizzard.blackthorne.savedState'
+               '~/Library/Saved Application State/com.blizzard.blackthorne.savedState',
              ]
 end
