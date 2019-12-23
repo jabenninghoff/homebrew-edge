@@ -13,7 +13,7 @@ cask 'canoscan-lide500f' do
             kext:    'jp.co.canon.iokit.CNQL2410_ClassicNotSeize'
 
   zap trash: [
-               '/Library/Preferences/CanoScan LiDE 500F',
+               '~/Library/Preferences/CanoScan LiDE 500F',
              ]
 
   caveats do
