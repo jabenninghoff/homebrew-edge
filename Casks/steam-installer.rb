@@ -1,10 +1,11 @@
-cask 'steam' do
-  version :latest
+cask 'steam-installer' do
+  # clone of https://github.com/Homebrew/homebrew-cask/blob/master/Casks/steam.rb modified to install once
+  version 'installer'
   sha256 :no_check
 
   # steamcdn-a.akamaihd.net was verified as official when first introduced to the cask
   url 'https://steamcdn-a.akamaihd.net/client/installer/steam.dmg'
-  name 'Steam'
+  name 'Steam Installer'
   homepage 'https://store.steampowered.com/about/'
 
   app 'Steam.app'

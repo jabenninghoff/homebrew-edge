@@ -1,5 +1,6 @@
-cask 'battle-net' do
-  version :latest
+cask 'battle-net-installer' do
+  # clone of https://github.com/Homebrew/homebrew-cask/blob/master/Casks/battle-net.rb modified to install once
+  version 'installer'
   sha256 :no_check
 
   language 'en', default: true do
@@ -10,7 +11,7 @@ cask 'battle-net' do
     url 'https://www.battle.net/download/getInstallerForGame?os=mac&installer=Battle.net-Setup-zhCN.zip'
   end
 
-  name 'Blizzard Battle.net'
+  name 'Blizzard Battle.net Installer'
   homepage 'https://www.battle.net/'
 
   installer manual: 'Battle.net-Setup.app'
