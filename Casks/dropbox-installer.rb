@@ -1,9 +1,10 @@
-cask 'dropbox' do
-  version :latest
+cask 'dropbox-installer' do
+  # clone of https://github.com/Homebrew/homebrew-cask/blob/master/Casks/dropbox.rb modified to install once
+  version 'installer'
   sha256 :no_check
 
   url 'https://www.dropbox.com/download?plat=mac&full=1'
-  name 'Dropbox'
+  name 'Dropbox Installer'
   homepage 'https://www.dropbox.com/'
 
   conflicts_with cask: 'dropbox-beta'
