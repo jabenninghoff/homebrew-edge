@@ -14,4 +14,8 @@ cask 'canoscan-lide500f' do
   zap trash: [
                '/Library/Preferences/CanoScan LiDE 500F',
              ]
+
+  caveats do
+    reboot
+  end
 end
