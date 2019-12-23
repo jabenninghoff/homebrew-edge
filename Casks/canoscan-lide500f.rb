@@ -9,7 +9,8 @@ cask 'canoscan-lide500f' do
 
   pkg 'ScanGear CS 11.2 Eng_Installer.pkg'
 
-  uninstall pkgutil: 'jp.co.canon.pkg.CanoScan\ LiDE\ 500F'
+  uninstall pkgutil: 'jp.co.canon.pkg.CanoScan\ LiDE\ 500F',
+            kext:    'jp.co.canon.iokit.CNQL2410_ClassicNotSeize'
 
   zap trash: [
                '/Library/Preferences/CanoScan LiDE 500F',
