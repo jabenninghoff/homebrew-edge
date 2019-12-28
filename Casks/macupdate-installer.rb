@@ -1,9 +1,10 @@
-cask 'macupdate' do
-  version :latest
+cask 'macupdate-installer' do
+  # clone of https://github.com/Homebrew/homebrew-cask/blob/master/Casks/macupdate.rb modified to install once
+  version 'installer'
   sha256 :no_check
 
   url 'https://www.macupdate.com/mud-download'
-  name 'MacUpdate Desktop'
+  name 'MacUpdate Desktop Installer'
   homepage 'https://www.macupdate.com/desktop'
 
   app 'MacUpdate Desktop.app'
