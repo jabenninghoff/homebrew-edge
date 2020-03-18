@@ -1,9 +1,10 @@
-cask 'webex-meetings' do
-  version :latest
+cask 'webex-meetings-installer' do
+  # clone of https://github.com/Homebrew/homebrew-cask/blob/master/Casks/webex-meetings.rb modified to install once
+  version 'installer'
   sha256 :no_check
 
   url 'https://akamaicdn.webex.com/client/webexapp.dmg'
-  name 'Webex Meetings'
+  name 'Webex Meetings Installer'
   homepage 'https://www.webex.com/'
 
   pkg 'Cisco Webex Meetings.pkg'
