@@ -1,9 +1,10 @@
-cask 'plantronics-hub' do
-  version :latest
+cask 'plantronics-hub-installer' do
+  # clone of https://github.com/Homebrew/homebrew-cask-drivers/blob/master/Casks/plantronics-hub.rb modified to install once
+  version 'installer'
   sha256 :no_check
 
   url 'https://www.poly.com/content/dam/www/software/PlantronicsHubInstaller.dmg'
-  name 'Plantronics Hub'
+  name 'Plantronics Hub Installer'
   homepage 'https://www.poly.com/us/en/support/downloads-apps'
 
   depends_on macos: '>= :yosemite'
