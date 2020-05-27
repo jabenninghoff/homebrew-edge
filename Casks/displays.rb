@@ -1,6 +1,6 @@
 cask 'displays' do
-  version '1.9.3'
-  sha256 'f2fe9a2519919a11c1bbd1b89ee84cddd9857a1564fae7034792119b2d247288'
+  version '1.9.4'
+  sha256 '918b97a47d810f74479cdafdbb61ebb0fb7620f673f84d876901e82fb7345101'
 
   url "https://www.jibapps.com/ressources/displays/files/Displays.#{version}.zip"
   appcast 'https://www.jibapps.com/ressources/displays/appcast.xml'
