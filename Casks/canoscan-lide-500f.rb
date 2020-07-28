@@ -1,4 +1,4 @@
-cask "canoscan-lide500f" do
+cask "canoscan-lide-500f" do
   version "11.2.5.1X"
   sha256 "8ffeef127c9db525fdbebad7f569bcf89065b2c315731b72b5f7f8be23a4ffe9"
 
