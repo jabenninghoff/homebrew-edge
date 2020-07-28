@@ -9,5 +9,8 @@ cask "magic-window-screen-saver" do
 
   screen_saver "Magic Window.saver"
 
-  caveats "For macOS Catalina you must provide Apple’s legacyScreenSaver process with full disk access to allow the screen saver to access your downloaded scenes."
+  caveats <<~EOS
+    For macOS Catalina you must provide Apple’s legacyScreenSaver process with full disk access
+    to allow the screen saver to access your downloaded scenes.
+  EOS
 end
