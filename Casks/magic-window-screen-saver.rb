@@ -5,6 +5,7 @@ cask "magic-window-screen-saver" do
   # magicwindowmac.jetsoncreativell.netdna-cdn.com was verified as official when first introduced to the cask
   url "http://magicwindowmac.jetsoncreativell.netdna-cdn.com/apps/MagicWindowScreenSaverPlugin.dmg"
   name "Magic Window Screen Saver"
+  desc "Screen saver plug-in"
   homepage "https://www.jetsoncreative.com/screensaverplugin/"
 
   screen_saver "Magic Window.saver"
