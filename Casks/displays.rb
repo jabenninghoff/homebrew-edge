@@ -5,6 +5,7 @@ cask "displays" do
   url "https://www.jibapps.com/ressources/displays/files/Displays.#{version}.zip"
   appcast "https://www.jibapps.com/ressources/displays/appcast.xml"
   name "Displays"
+  desc "Monitor resolution and settings manager"
   homepage "https://www.jibapps.com/apps/displays/"
 
   auto_updates true
