@@ -5,6 +5,7 @@ cask "ctivo" do
   url "https://github.com/mackworth/cTiVo/releases/download/#{version}/cTiVo.app.zip"
   appcast "https://github.com/mackworth/cTiVo/releases.atom"
   name "cTiVo"
+  desc "Download and convert Tivo shows"
   homepage "https://github.com/mackworth/cTiVo"
 
   app "cTiVo.app"
