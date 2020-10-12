@@ -3,7 +3,7 @@ class CvsFastExport < Formula
   homepage "http://www.catb.org/~esr/cvs-fast-export/"
   url "http://www.catb.org/~esr/cvs-fast-export/cvs-fast-export-1.55.tar.gz"
   sha256 "af58e16667c6e02e8431ff666effe306d3b30086fab483170257890da1afc21b"
-  license "GPL-2.0"
+  license "GPL-2.0-or-later"
 
   depends_on "asciidoc" => :build
   depends_on "docbook" => :build
