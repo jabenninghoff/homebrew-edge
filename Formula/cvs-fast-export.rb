@@ -9,8 +9,7 @@ class CvsFastExport < Formula
   depends_on "docbook" => :build
 
   def install
-    # otherwise asciidoc will fail to find docbook
-    ENV["XML_CATALOG_FILES"] = etc/"xml/catalog"
+    ENV["XML_CATALOG_FILES"] = "#{etc}/xml/catalog"
 
     # warning: make takes an unusually long time to complete
     system "make", "cvs-fast-export", "man"
