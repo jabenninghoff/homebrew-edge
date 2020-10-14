@@ -9,6 +9,8 @@ cask "transcriptions" do
   desc "Text editor for fast manual transcription"
   homepage "https://soleil-alpin.com/Transcriptions/"
 
+  depends_on macos: ">= :catalina"
+
   app "Transcriptions.app"
 
   zap trash: [
