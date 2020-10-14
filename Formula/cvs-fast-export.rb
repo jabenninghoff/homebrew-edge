@@ -7,6 +7,7 @@ class CvsFastExport < Formula
 
   depends_on "asciidoc" => :build
   depends_on "docbook-xsl" => :build
+  depends_on "cvs" => :test
 
   def install
     ENV["XML_CATALOG_FILES"] = "#{etc}/xml/catalog"
@@ -15,6 +16,18 @@ class CvsFastExport < Formula
   end
 
   test do
-    assert_match "cvs-fast-export: version #{version}", shell_output("#{bin}/cvs-fast-export --version")
+    cvsroot = testpath/"cvsroot"
+    cvsroot.mkpath
+    system "cvs", "-d", cvsroot, "init"
+
+    test_content = "John Barleycorn"
+
+    mkdir "cvsexample" do
+      (testpath/"cvsexample/testfile").write(test_content)
+      ENV["CVSROOT"] = cvsroot
+      system "cvs", "import", "-m", "example import", "cvsexample", "homebrew", "start"
+    end
+
+    assert_match test_content, shell_output("find #{testpath}/cvsroot | #{bin}/cvs-fast-export")
   end
 end
