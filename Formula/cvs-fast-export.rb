@@ -6,13 +6,11 @@ class CvsFastExport < Formula
   license "GPL-2.0-or-later"
 
   depends_on "asciidoc" => :build
-  depends_on "docbook" => :build
+  depends_on "docbook-xsl" => :build
 
   def install
     ENV["XML_CATALOG_FILES"] = "#{etc}/xml/catalog"
 
-    # warning: make takes an unusually long time to complete
-    system "make", "cvs-fast-export", "man"
     system "make", "install", "prefix=#{prefix}"
   end
 
