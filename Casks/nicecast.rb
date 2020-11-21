@@ -5,6 +5,7 @@ cask "nicecast" do
   url "https://rogueamoeba.com/legacy/downloads/Nicecast-#{version.no_dots}.zip"
   appcast "https://rogueamoeba.net/ping/versionCheck.cgi?format=sparkle&bundleid=com.rogueamoeba.Nicecast&system=10114"
   name "Nicecast"
+  desc "Internet radio broadcasting app"
   homepage "https://rogueamoeba.com/nicecast/"
 
   app "Nicecast.app"
