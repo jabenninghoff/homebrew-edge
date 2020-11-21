@@ -6,6 +6,7 @@ cask "plantronics-hub-installer" do
 
   url "https://www.poly.com/content/dam/www/software/PlantronicsHubInstaller.dmg"
   name "Plantronics Hub Installer"
+  desc "Configure and update Plantronics headsets"
   homepage "https://www.poly.com/us/en/support/downloads-apps"
 
   depends_on macos: ">= :yosemite"
