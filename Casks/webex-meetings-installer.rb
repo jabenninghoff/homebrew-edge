@@ -5,6 +5,7 @@ cask "webex-meetings-installer" do
 
   url "https://akamaicdn.webex.com/client/webexapp.dmg"
   name "Webex Meetings Installer"
+  desc "Videoconferencing desktop client"
   homepage "https://www.webex.com/"
 
   pkg "Cisco Webex Meetings.pkg"
