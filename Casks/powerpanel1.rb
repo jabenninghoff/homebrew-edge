@@ -5,6 +5,7 @@ cask "powerpanel1" do
   # dl4jz3rbrsfum.cloudfront.net/ was verified as official when first introduced to the cask
   url "https://dl4jz3rbrsfum.cloudfront.net/software/ppm#{version.no_dots}.dmg"
   name "CyberPower PowerPanel Personal"
+  desc "Monitor and configure UPS"
   homepage "https://www.cyberpowersystems.com/products/software/power-panel-personal/"
 
   depends_on macos: ">= :sierra"
