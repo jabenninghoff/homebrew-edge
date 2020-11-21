@@ -6,12 +6,12 @@ cask "battle-net-installer" do
   language "en", default: true do
     url "https://www.battle.net/download/getInstallerForGame?os=mac&locale=enUS&version=LIVE&gameProgram=BATTLENET_APP"
   end
-
   language "zh", "CN" do
     url "https://www.battle.net/download/getInstallerForGame?os=mac&installer=Battle.net-Setup-zhCN.zip"
   end
 
   name "Blizzard Battle.net Installer"
+  desc "Online gaming platform"
   homepage "https://www.battle.net/"
 
   installer manual: "Battle.net-Setup.app"
