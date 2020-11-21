@@ -4,6 +4,7 @@ cask "subcleaner" do
 
   url "https://www.rivola.net/files/subcleaner_#{version}.dmg"
   name "SubCleaner"
+  desc "Clean video subtitles"
   homepage "https://www.rivola.net/subcleaner/"
 
   app "SubCleaner.app"
