@@ -4,6 +4,7 @@ cask "radioshark" do
 
   url "https://support.griffintechnology.com/wp-content/uploads/sites/3/2015/08/RadioSharkv_#{version.dots_to_underscores}.zip"
   name "radioSHARK"
+  desc "USB radio receiver"
   homepage "https://support.griffintechnology.com/product/radioshark/"
 
   pkg "radioSHARK.pkg"
