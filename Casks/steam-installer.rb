@@ -6,6 +6,7 @@ cask "steam-installer" do
   # steamcdn-a.akamaihd.net/ was verified as official when first introduced to the cask
   url "https://steamcdn-a.akamaihd.net/client/installer/steam.dmg"
   name "Steam Installer"
+  desc "Video game digital distribution service"
   homepage "https://store.steampowered.com/about/"
 
   app "Steam.app"
