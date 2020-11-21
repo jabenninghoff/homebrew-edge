@@ -5,6 +5,7 @@ cask "macupdate-installer" do
 
   url "https://www.macupdate.com/mud-download"
   name "MacUpdate Desktop Installer"
+  desc "Install and update apps"
   homepage "https://www.macupdate.com/desktop"
 
   app "MacUpdate Desktop.app"
