@@ -5,6 +5,7 @@ cask "canoscan-toolbox" do
   # gdlp01.c-wss.com/gds was verified as official when first introduced to the cask
   url "https://gdlp01.c-wss.com/gds/1/0900002921/03/cstbosx4934ej4.dmg"
   name "CanoScan Toolbox"
+  desc "Scanner software"
   homepage "https://www.usa.canon.com/internet/portal/us/home/support/details/scanners/support-scanners-canoscan-series/canoscan-lide-500f"
 
   pkg "CanoScan Toolbox4.9.3.4 Installer.pkg"
