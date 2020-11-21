@@ -5,16 +5,21 @@ cask "dropbox-installer" do
 
   url "https://www.dropbox.com/download?plat=mac&full=1"
   name "Dropbox Installer"
+  desc "Client for the Dropbox cloud storage service"
   homepage "https://www.dropbox.com/"
 
-  conflicts_with cask: "dropbox-beta"
+  conflicts_with cask: "homebrew/cask-versions/dropbox-beta"
 
   app "Dropbox.app"
 
-  uninstall launchctl: "com.dropbox.DropboxMacUpdate.agent"
+  uninstall launchctl: "com.dropbox.DropboxMacUpdate.agent",
+            kext:      "com.getdropbox.dropbox.kext",
+            delete:    [
+              "/Library/DropboxHelperTools",
+              "/Library/Preferences/com.getdropbox.dropbox.dbkextd.plist",
+            ]
 
   zap trash: [
-    "/Library/DropboxHelperTools",
     "~/.dropbox",
     "~/Library/Application Scripts/com.dropbox.foldertagger",
     "~/Library/Application Scripts/com.getdropbox.dropbox.garcon",
