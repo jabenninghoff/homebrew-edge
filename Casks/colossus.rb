@@ -5,6 +5,7 @@ cask "colossus" do
   url "https://sourceforge.net/projects/colossus/files/latest/download"
   appcast "https://sourceforge.net/projects/colossus/rss"
   name "Colossus"
+  desc "Titan java clone"
   homepage "http://colossus.sourceforge.net/"
 
   # stage_only and link to the staged path to work around the lack of a subfolder that can be targeted by suite
