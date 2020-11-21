@@ -4,6 +4,7 @@ cask "jsanjuan" do
 
   url "http://www.compoundeye.net/jsanjuan/JSanJuan_v#{version.no_dots}.jar"
   name "JSanJuan"
+  desc "Free java implementation of San Juan card game"
   homepage "http://www.compoundeye.net/jsanjuan/index.html"
 
   app "JSanJuan_v#{version.no_dots}.jar"
