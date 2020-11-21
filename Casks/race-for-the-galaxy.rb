@@ -4,6 +4,7 @@ cask "race-for-the-galaxy" do
 
   url "http://keldon.net/rftg/rftg-osx-#{version}.zip"
   name "Race for the Galaxy AI"
+  desc "Free implementation of Race for the Galaxy card game"
   homepage "http://keldon.net/rftg/"
 
   app "Race for the Galaxy.app"
