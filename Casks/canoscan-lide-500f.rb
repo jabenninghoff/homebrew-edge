@@ -5,6 +5,7 @@ cask "canoscan-lide-500f" do
   # gdlp01.c-wss.com/gds was verified as official when first introduced to the cask
   url "https://gdlp01.c-wss.com/gds/9/0900003219/04/lide500fosx11251en.dmg"
   name "CanoScan LiDE 500F"
+  desc "Scanner driver"
   homepage "https://www.usa.canon.com/internet/portal/us/home/support/details/scanners/support-scanners-canoscan-series/canoscan-lide-500f"
 
   pkg "ScanGear CS 11.2 Eng_Installer.pkg"
