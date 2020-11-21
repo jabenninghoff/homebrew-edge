@@ -4,6 +4,7 @@ cask "pdnu" do
 
   url "https://www.cyberpower.com/global/en/File/GetImageByDocId/SU-18070002-10"
   name "Power Device Network Utility"
+  desc "Network device discovery utility"
   homepage "https://www.cyberpower.com/eu/en/software/utility"
 
   app "PDNU.app"
