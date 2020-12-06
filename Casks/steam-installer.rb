@@ -3,8 +3,8 @@ cask "steam-installer" do
   version "installer"
   sha256 :no_check
 
-  # steamcdn-a.akamaihd.net/ was verified as official when first introduced to the cask
-  url "https://steamcdn-a.akamaihd.net/client/installer/steam.dmg"
+  url "https://steamcdn-a.akamaihd.net/client/installer/steam.dmg",
+      verified: "steamcdn-a.akamaihd.net"
   name "Steam Installer"
   desc "Video game digital distribution service"
   homepage "https://store.steampowered.com/about/"
