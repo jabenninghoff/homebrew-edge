@@ -3,10 +3,10 @@ cask "macupdate-installer" do
   version "installer"
   sha256 :no_check
 
-  url "https://www.macupdate.com/mud-download"
+  url "https://www.macupdate.com/app/mac/8544/macupdate-desktop/download"
   name "MacUpdate Desktop Installer"
   desc "Install and update apps"
-  homepage "https://www.macupdate.com/desktop"
+  homepage "https://www.macupdate.com/app/mac/8544/macupdate-desktop"
 
   app "MacUpdate Desktop.app"
 
