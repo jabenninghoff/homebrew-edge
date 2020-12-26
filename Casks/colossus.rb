@@ -2,7 +2,7 @@ cask "colossus" do
   version "20160121"
   sha256 "460aa15f6bbdc24935b8182a1660fcbe86a6ceeaa48bd52b87cd8578385e3061"
 
-  url "https://sourceforge.net/projects/colossus/files/latest/download"
+  url "https://downloads.sourceforge.net/colossus/Colossus-Public-Build-#{version}.zip"
   appcast "https://sourceforge.net/projects/colossus/rss"
   name "Colossus"
   desc "Titan java clone"
