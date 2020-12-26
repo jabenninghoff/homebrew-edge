@@ -1,9 +1,10 @@
 cask "endnote9" do
   version "9"
-  sha256 :no_check # required as upstream package is updated in-place
+  sha256 :no_check
 
   url "https://download.endnote.com/downloads/X#{version}/EndNoteX#{version}Installer.dmg"
   name "EndNote"
+  desc "Reference Manager"
   homepage "https://endnote.com/"
 
   container nested: "Install EndNote X#{version}.app/Contents/Resources/EndNote.zip"
