@@ -1,4 +1,4 @@
-cask "endnote" do
+cask "endnote9" do
   version "9"
   sha256 :no_check # required as upstream package is updated in-place
 
