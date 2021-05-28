@@ -14,7 +14,6 @@ cask "carbon-copy-cloner5" do
   end
 
   auto_updates true
-  depends_on macos: ">= :catalina"
 
   app "Carbon Copy Cloner.app"
 
