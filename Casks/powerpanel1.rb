@@ -1,11 +1,12 @@
 cask "powerpanel1" do
-  version "1.1.1"
-  sha256 :no_check
+  version "1.1.0"
+  sha256 "9ef3160ad516cf246647a11bdbeaa756a98b2c0d9915ccabbf0d6cc72bebdf51"
 
-  url "https://www.cyberpower.com/eu/en/File/GetFileSampleByType?fileId=SU-18070001-01"
+  url "https://dl4jz3rbrsfum.cloudfront.net/software/ppm#{version.no_dots}.dmg",
+      verified: "dl4jz3rbrsfum.cloudfront.net"
   name "CyberPower PowerPanel Personal"
   desc "Monitor and configure UPS"
-  homepage "https://www.cyberpower.com/eu/en/product/sku/powerpanel%C2%AE_for_mac#downloads"
+  homepage "https://www.cyberpowersystems.com/products/software/power-panel-personal/"
 
   depends_on macos: ">= :sierra"
 
