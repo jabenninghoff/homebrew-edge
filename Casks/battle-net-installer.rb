@@ -1,5 +1,6 @@
 cask "battle-net-installer" do
-  # clone of https://github.com/Homebrew/homebrew-cask/blob/master/Casks/battle-net.rb modified to install once
+  # clone of https://github.com/Homebrew/homebrew-cask/blob/master/Casks/battle-net.rb
+  # modified to install once
   version "installer"
   sha256 :no_check
 

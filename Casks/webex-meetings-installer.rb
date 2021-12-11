@@ -1,5 +1,6 @@
 cask "webex-meetings-installer" do
-  # clone of https://github.com/Homebrew/homebrew-cask/blob/master/Casks/webex-meetings.rb modified to install once
+  # clone of https://github.com/Homebrew/homebrew-cask/blob/master/Casks/webex-meetings.rb
+  # modified to install once
   version "installer"
   sha256 :no_check
 
