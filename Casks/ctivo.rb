@@ -1,6 +1,6 @@
 cask "ctivo" do
-  version "3.4.3"
-  sha256 "78dde65d6c54afa7a7bf9071e4926e752ce02b3ae82d5688b19545bed90c44a5"
+  version "3.5.1"
+  sha256 "34e05fd4b7ca195cec5968ba5689ed822a3172fca7a0f348fadcfba93ed239e1"
 
   url "https://github.com/mackworth/cTiVo/releases/download/#{version}/cTiVo.app.zip"
   appcast "https://github.com/mackworth/cTiVo/releases.atom"
