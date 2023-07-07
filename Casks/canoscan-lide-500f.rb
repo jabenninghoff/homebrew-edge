@@ -3,7 +3,7 @@ cask "canoscan-lide-500f" do
   sha256 "8ffeef127c9db525fdbebad7f569bcf89065b2c315731b72b5f7f8be23a4ffe9"
 
   url "https://gdlp01.c-wss.com/gds/9/0900003219/04/lide500fosx#{version.no_dots}en.dmg",
-      verified: "gdlp01.c-wss.com/gds"
+      verified: "gdlp01.c-wss.com/gds/"
   name "CanoScan LiDE 500F"
   desc "Scanner driver"
   homepage "https://www.usa.canon.com/internet/portal/us/home/support/details/scanners/support-scanners-canoscan-series/canoscan-lide-500f"
