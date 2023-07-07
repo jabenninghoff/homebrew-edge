@@ -8,8 +8,7 @@ cask "transmit5" do
   homepage "https://panic.com/transmit/"
 
   livecheck do
-    url "https://library.panic.com/transmit/transmit5/release-integrity/"
-    regex(/href=.*?Transmit[\s._-]?v?(\d+(?:\.\d+)+)\.zip/i)
+    skip "legacy version for Mojave"
   end
 
   auto_updates true
