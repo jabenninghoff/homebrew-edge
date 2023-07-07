@@ -3,8 +3,7 @@ cask "transcriptions" do
   sha256 "c0aa6654c16dc05195cc88113323f2cfe2ce2a0a5ea85e95e42692d0b144205e"
 
   url "https://github.com/soleil-alpin/Transcriptions/releases/download/v#{version}/Transcriptions.app.zip",
-      verified: "github.com/soleil-alpin/Transcriptions"
-  appcast "https://github.com/soleil-alpin/Transcriptions/releases.atom"
+      verified: "github.com/soleil-alpin/Transcriptions/"
   name "Transcriptions"
   desc "Text editor for fast manual transcription"
   homepage "https://soleil-alpin.com/Transcriptions/"
