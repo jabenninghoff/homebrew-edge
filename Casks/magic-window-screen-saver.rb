@@ -1,9 +1,9 @@
 cask "magic-window-screen-saver" do
-  version "3.0"
+  version "3.1"
   sha256 :no_check
 
-  url "https://stackpath.24hourwallpaper.com/apps/MagicWindowScreenSaverPlugin.dmg",
-      verified: "stackpath.24hourwallpaper.com"
+  url "https://magicwindowmac.sfo2.cdn.digitaloceanspaces.com/apps/MagicWindowScreenSaverPlugin.dmg",
+      verified: "magicwindowmac.sfo2.cdn.digitaloceanspaces.com"
   name "Magic Window Screen Saver"
   desc "Screen saver plug-in"
   homepage "https://www.jetsoncreative.com/screensaverplugin/"
@@ -11,7 +11,7 @@ cask "magic-window-screen-saver" do
   screen_saver "Magic Window.saver"
 
   caveats <<~EOS
-    For macOS Catalina you must provide Apple’s legacyScreenSaver process with full disk access
-    to allow the screen saver to access your downloaded scenes.
+    For macOS Catalina and newer you must provide Apple’s legacyScreenSaver process with full
+    disk access to allow the screen saver to access your downloaded scenes.
   EOS
 end
