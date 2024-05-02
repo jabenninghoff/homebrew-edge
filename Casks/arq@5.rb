@@ -1,4 +1,4 @@
-cask "arq5" do
+cask "arq@5" do
   version "5.22"
   sha256 "9aaa28e5d20155865d6d5ed510a0bf92f34954ff86b5d9830b97d08efb4584c9"
 
