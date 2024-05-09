@@ -7,9 +7,7 @@ cask "nicecast" do
   desc "Internet radio broadcasting app"
   homepage "https://rogueamoeba.com/nicecast/"
 
-  app "Nicecast.app"
+  deprecate! date: "2018-03-01", because: :discontinued
 
-  caveats do
-    discontinued
-  end
+  app "Nicecast.app"
 end
