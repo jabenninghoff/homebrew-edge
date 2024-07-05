@@ -1,11 +1,13 @@
 cask "ctivo" do
-  version "3.5.3"
-  sha256 "a8262f9435279ecbc4d97913cee13f7a67d1667f40efc3d495473e390ce28618"
+  version "3.6.3"
+  sha256 "5153e254d764297322887e96c13a56568d17732541e3536db879f044de422780"
 
-  url "https://github.com/mackworth/cTiVo/releases/download/#{version}/cTiVo.app.zip"
+  url "https://github.com/mackworth/cTiVo/releases/download/#{version}/cTiVo.#{version}.zip"
   name "cTiVo"
   desc "Download and convert Tivo shows"
   homepage "https://github.com/mackworth/cTiVo"
+
+  depends_on macos: ">= :sierra"
 
   app "cTiVo.app"
 
