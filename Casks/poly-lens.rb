@@ -11,5 +11,7 @@ cask "poly-lens" do
     skip "Homepage version API not supported"
   end
 
-  app "Poly Lens.app"
+  pkg "LensDesktop-#{version}.pkg"
+
+  uninstall pkgutil: "com.poly.lens.desktop.pkg"
 end
