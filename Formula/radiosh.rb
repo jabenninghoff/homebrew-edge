@@ -3,7 +3,7 @@ class Radiosh < Formula
   homepage "https://www.floodgap.com/software/radiosh/"
   url "https://www.floodgap.com/software/radiosh/radiosh-src.zip"
   version "1.0" # fix per https://github.com/Homebrew/brew/issues/7110
-  sha256 "c961870dbcc7c180467e3bbf546d3cef7b621eb02b8be96edd04c60ff72ff6c0"
+  sha256 "792942156fafb67e91e343cfc94ecb84fe9edf212aa0515fa0fb76b943c09976"
   license "BSD-3-Clause"
 
   depends_on xcode: :build
