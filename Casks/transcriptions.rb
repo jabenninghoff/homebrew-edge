@@ -1,14 +1,14 @@
 cask "transcriptions" do
-  version "1.3"
-  sha256 "c0aa6654c16dc05195cc88113323f2cfe2ce2a0a5ea85e95e42692d0b144205e"
+  version "1.4"
+  sha256 "8fcde56fe192a5c99272fadc3d3069747fb765ea3c59d3416fc1c9057446caea"
 
   url "https://github.com/soleil-alpin/Transcriptions/releases/download/v#{version}/Transcriptions.app.zip",
       verified: "github.com/soleil-alpin/Transcriptions/"
   name "Transcriptions"
   desc "Text editor for fast manual transcription"
-  homepage "https://soleil-alpin.com/Transcriptions/"
+  homepage "https://transcriptions.dev"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: ">= :monterey"
 
   app "Transcriptions.app"
 
