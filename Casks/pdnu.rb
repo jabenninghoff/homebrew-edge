@@ -7,6 +7,10 @@ cask "pdnu" do
   desc "Network device discovery utility"
   homepage "https://www.cyberpower.com/eu/en/software/utility"
 
+  livecheck do
+    skip "legacy version"
+  end
+
   app "PDNU.app"
 
   zap trash: [

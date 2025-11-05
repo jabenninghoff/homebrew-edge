@@ -8,6 +8,10 @@ cask "canoscan-lide-500f" do
   desc "Scanner driver"
   homepage "https://www.usa.canon.com/internet/portal/us/home/support/details/scanners/support-scanners-canoscan-series/canoscan-lide-500f"
 
+  livecheck do
+    skip "legacy version"
+  end
+
   pkg "ScanGear CS 11.2 Eng_Installer.pkg"
 
   uninstall pkgutil: 'jp.co.canon.pkg.CanoScan\ LiDE\ 500F',
