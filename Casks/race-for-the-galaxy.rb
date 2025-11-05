@@ -7,5 +7,9 @@ cask "race-for-the-galaxy" do
   desc "Free implementation of Race for the Galaxy card game"
   homepage "http://keldon.net/rftg/"
 
+  livecheck do
+    skip "legacy version"
+  end
+
   app "Race for the Galaxy.app"
 end

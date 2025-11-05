@@ -8,6 +8,10 @@ cask "canoscan-toolbox" do
   desc "Scanner software"
   homepage "https://www.usa.canon.com/internet/portal/us/home/support/details/scanners/support-scanners-canoscan-series/canoscan-lide-500f"
 
+  livecheck do
+    skip "legacy version"
+  end
+
   pkg "CanoScan Toolbox4.9.3.4 Installer.pkg"
 
   uninstall pkgutil: 'com.canon.CanoScan\ Toolbox\ 4.9.3',

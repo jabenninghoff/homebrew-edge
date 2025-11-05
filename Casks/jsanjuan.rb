@@ -7,6 +7,10 @@ cask "jsanjuan" do
   desc "Free java implementation of San Juan card game"
   homepage "http://www.compoundeye.net/jsanjuan/index.html"
 
+  livecheck do
+    skip "legacy version"
+  end
+
   app "JSanJuan_v#{version.no_dots}.jar"
 
   caveats do

@@ -8,6 +8,10 @@ cask "knox" do
   desc "FileVault disk image manager"
   homepage "https://app-updates.agilebits.com/product_history/KNOX"
 
+  livecheck do
+    skip "legacy version"
+  end
+
   app "Knox.app"
 
   zap trash: [
