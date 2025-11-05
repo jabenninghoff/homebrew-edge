@@ -12,8 +12,6 @@ cask "luna-display" do
     strategy :sparkle
   end
 
-  depends_on macos: ">= :el_capitan"
-
   app "Luna Display.app"
 
   uninstall quit: "com.astro-hq.LunaDisplayMac"
