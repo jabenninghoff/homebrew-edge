@@ -1,6 +1,6 @@
 cask "poly-lens" do
-  version "2.3.0.1517"
-  sha256 "9428e67219eb4485f0bff565775e70f5e4f94783f16b65ea5cf92e928f8dc080"
+  version "2.3.1.1775"
+  sha256 "4da23fb99aa903106ae56473fadbc0c5022f7f0529f30088ad3311d135fbe217"
 
   url "https://swupdate.lens.poly.com/lens-desktop-mac/#{version}/#{version}/LensDesktop-#{version}.dmg",
       verified: "swupdate.lens.poly.com/lens-desktop-mac/"
