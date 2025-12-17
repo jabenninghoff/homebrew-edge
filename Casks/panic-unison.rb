@@ -7,7 +7,9 @@ cask "panic-unison" do
   desc "App to access Usenet Newsgroups"
   homepage "https://panic.com/blog/the-future-of-unison/"
 
-  disable! date: "2024-12-16", because: :discontinued
+  livecheck do
+    skip "legacy version"
+  end
 
   app "Unison.app"
 end
