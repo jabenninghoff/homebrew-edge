@@ -8,8 +8,6 @@ cask "macupdater" do
   desc "Track and update to the latest versions of installed software"
   homepage "https://www.corecode.io/macupdater/index.html"
 
-  deprecate! date: "2026-01-01", because: :discontinued
-
   auto_updates true
   depends_on macos: ">= :monterey"
 

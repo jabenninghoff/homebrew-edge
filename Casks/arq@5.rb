@@ -7,8 +7,6 @@ cask "arq@5" do
   desc "Multi-cloud backup application"
   homepage "https://www.arqbackup.com/"
 
-  deprecate! date: "2023-12-17", because: :discontinued
-
   auto_updates true
   conflicts_with cask: "arq"
 
