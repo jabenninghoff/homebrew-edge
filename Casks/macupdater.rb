@@ -8,6 +8,11 @@ cask "macupdater" do
   desc "Track and update to the latest versions of installed software"
   homepage "https://www.corecode.io/macupdater/index.html"
 
+  livecheck do
+    url "https://www.corecode.io/macupdater/macupdater#{version.major}.xml"
+    strategy :sparkle, &:short_version
+  end
+
   auto_updates true
   depends_on macos: ">= :monterey"
 
