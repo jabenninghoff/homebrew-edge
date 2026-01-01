@@ -1,5 +1,5 @@
 cask "macupdater" do
-  version "3.4.6"
+  version "3.5.0"
   # required as upstream package is regularly updated in-place https://github.com/Homebrew/homebrew-cask/pull/182188#issuecomment-2284199515
   sha256 :no_check
 
