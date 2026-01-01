@@ -7,9 +7,6 @@ cask "id3-editor" do
   desc "MP3 and AIFF ID3 tag editor"
   homepage "http://www.pa-software.com/id3editor/"
 
-  # Artifact not available over HTTPS
-  disable! date: "2025-12-23", because: :no_longer_meets_criteria
-
   depends_on macos: ">= :big_sur"
 
   app "ID3 Editor.app"
