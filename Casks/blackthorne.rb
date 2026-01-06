@@ -7,6 +7,8 @@ cask "blackthorne" do
   desc "Cinematic platform game"
   homepage "https://www.blizzard.com/en-us/download/?platform=macos"
 
+  deprecate! date: "2025-12-31", because: "32-bit application"
+
   app "Blackthorne.app"
 
   zap trash: [

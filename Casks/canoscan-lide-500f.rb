@@ -8,6 +8,8 @@ cask "canoscan-lide-500f" do
   desc "Scanner driver"
   homepage "https://www.usa.canon.com/internet/portal/us/home/support/details/scanners/support-scanners-canoscan-series/canoscan-lide-500f"
 
+  deprecate! date: "2025-12-31", because: "32-bit application"
+
   livecheck do
     skip "legacy version"
   end
