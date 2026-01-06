@@ -7,5 +7,7 @@ cask "subcleaner" do
   desc "Clean video subtitles"
   homepage "https://www.rivola.net/subcleaner/"
 
+  deprecate! date: "2025-12-31", because: :no_longer_available
+
   app "SubCleaner.app"
 end
