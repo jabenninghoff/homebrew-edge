@@ -7,5 +7,7 @@ cask "nicecast" do
   desc "Internet radio broadcasting app"
   homepage "https://rogueamoeba.com/nicecast/"
 
+  deprecate! date: "2025-12-31", because: "32-bit application"
+
   app "Nicecast.app"
 end
