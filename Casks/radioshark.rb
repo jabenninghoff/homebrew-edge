@@ -7,6 +7,8 @@ cask "radioshark" do
   desc "USB radio receiver"
   homepage "https://support.griffintechnology.com/product/radioshark/"
 
+  deprecate! date: "2025-12-31", because: :no_longer_available
+
   pkg "radioSHARK.pkg"
 
   uninstall pkgutil: "com.griffintechnology.radioSHARK"
