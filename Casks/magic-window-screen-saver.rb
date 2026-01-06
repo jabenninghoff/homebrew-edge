@@ -8,6 +8,12 @@ cask "magic-window-screen-saver" do
   desc "Screen saver plug-in"
   homepage "https://www.jetsoncreative.com/screensaverplugin/"
 
+  livecheck do
+    url :homepage
+    regex(/Download Magic Window Mac Screen Saver Plug-in \(v(\d+(?:\.\d+)+)\)/i)
+    strategy :page_match
+  end
+
   screen_saver "Magic Window.saver"
 
   caveats <<~EOS
