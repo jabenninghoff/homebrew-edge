@@ -17,4 +17,8 @@ cask "pdnu" do
     "~/Library/Library/Saved Application State/com.cyberpower.PDNU.savedState",
     "~/Library/Preferences/com.cyberpower.PDNU.plist",
   ]
+
+  caveats do
+    requires_rosetta
+  end
 end
