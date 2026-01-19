@@ -9,7 +9,6 @@ class Radiosh < Formula
   livecheck do
     url :homepage
     regex(%r{http://www\.floodgap.com/software/radiosh/ -- version (\d+(?:\.\d+)+)}i)
-    strategy :page_match
   end
 
   depends_on xcode: :build
