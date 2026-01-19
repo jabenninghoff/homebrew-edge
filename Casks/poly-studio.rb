@@ -13,6 +13,8 @@ cask "poly-studio" do
     skip "Homepage version API not supported"
   end
 
+  depends_on macos: ">= :sonoma"
+
   pkg "PolyStudio-#{version}.pkg"
 
   uninstall pkgutil: "com.poly.lens.desktop.pkg"

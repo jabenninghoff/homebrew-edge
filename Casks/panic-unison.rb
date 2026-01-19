@@ -12,4 +12,8 @@ cask "panic-unison" do
   end
 
   app "Unison.app"
+
+  caveats do
+    requires_rosetta
+  end
 end

@@ -16,4 +16,8 @@ cask "powerpanel@1" do
 
   uninstall launchctl: "com.cpsww.ppupsd",
             pkgutil:   "com.cpsww.ppupsd"
+
+  caveats do
+    requires_rosetta
+  end
 end

@@ -2,10 +2,10 @@ cask "race-for-the-galaxy" do
   version "0.9.4"
   sha256 "f60585e3f47cf09df77c578bb1c7dad31dfe4dbe223da35f190b2573a2803bd7"
 
-  url "http://keldon.net/rftg/rftg-osx-#{version}.zip"
+  url "https://keldon.net/rftg/rftg-osx-#{version}.zip"
   name "Race for the Galaxy AI"
   desc "Free implementation of Race for the Galaxy card game"
-  homepage "http://keldon.net/rftg/"
+  homepage "https://keldon.net/rftg/"
 
   livecheck do
     skip "legacy version"

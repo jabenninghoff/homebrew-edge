@@ -18,4 +18,8 @@ cask "knox" do
     "~/Library/Caches/com.knoxformac.knox",
     "~/Library/Preferences/com.knoxformac.knox.plist",
   ]
+
+  caveats do
+    requires_rosetta
+  end
 end

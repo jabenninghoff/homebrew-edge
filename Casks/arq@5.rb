@@ -24,4 +24,8 @@ cask "arq@5" do
     "~/Library/Preferences/com.haystacksoftware.Arq*.plist",
     "~/Library/Saved Application State/com.haystacksoftware.Arq.savedState",
   ]
+
+  caveats do
+    requires_rosetta
+  end
 end
