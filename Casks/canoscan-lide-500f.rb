@@ -8,20 +8,18 @@ cask "canoscan-lide-500f" do
   desc "Scanner driver"
   homepage "https://www.usa.canon.com/internet/portal/us/home/support/details/scanners/support-scanners-canoscan-series/canoscan-lide-500f"
 
-  deprecate! date: "2025-12-31", because: "32-bit application"
-
   livecheck do
     skip "legacy version"
   end
 
+  deprecate! date: "2025-12-31", because: "32-bit application"
+
   pkg "ScanGear CS 11.2 Eng_Installer.pkg"
 
-  uninstall pkgutil: 'jp.co.canon.pkg.CanoScan\ LiDE\ 500F',
-            kext:    "jp.co.canon.iokit.CNQL2410_ClassicNotSeize"
+  uninstall kext:    "jp.co.canon.iokit.CNQL2410_ClassicNotSeize",
+            pkgutil: 'jp.co.canon.pkg.CanoScan\ LiDE\ 500F'
 
-  zap trash: [
-    "~/Library/Preferences/CanoScan LiDE 500F",
-  ]
+  zap trash: "~/Library/Preferences/CanoScan LiDE 500F"
 
   caveats do
     reboot

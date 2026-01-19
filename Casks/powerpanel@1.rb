@@ -14,6 +14,6 @@ cask "powerpanel@1" do
 
   app "PowerPanel.app"
 
-  uninstall pkgutil:   "com.cpsww.ppupsd",
-            launchctl: "com.cpsww.ppupsd"
+  uninstall launchctl: "com.cpsww.ppupsd",
+            pkgutil:   "com.cpsww.ppupsd"
 end

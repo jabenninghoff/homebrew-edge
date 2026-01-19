@@ -6,15 +6,15 @@ cask "transcriptions" do
       verified: "github.com/soleil-alpin/Transcriptions/"
   name "Transcriptions"
   desc "Text editor for fast manual transcription"
-  homepage "https://transcriptions.dev"
+  homepage "https://transcriptions.dev/"
 
   depends_on macos: ">= :monterey"
 
   app "Transcriptions.app"
 
   zap trash: [
-    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.davidhas.transcriptions.sfl2",
     "~/Library/Application Scripts/com.davidhas.Transcriptions",
+    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.davidhas.transcriptions.sfl*",
     "~/Library/Containers/com.davidhas.Transcriptions",
   ]
 end
