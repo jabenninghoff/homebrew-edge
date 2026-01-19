@@ -11,7 +11,6 @@ cask "magic-window-screen-saver" do
   livecheck do
     url :homepage
     regex(/Download Magic Window Mac Screen Saver Plug-in \(v(\d+(?:\.\d+)+)\)/i)
-    strategy :page_match
   end
 
   screen_saver "Magic Window.saver"

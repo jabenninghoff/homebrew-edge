@@ -12,7 +12,6 @@ cask "dragthing" do
 
   livecheck do
     url "https://www.dragthing.com/english/download.html"
-    strategy :page_match
     regex(%r{href=.*?/DragThing-(\d+(?:\.\d+)*)\.dmg}i)
   end
 
