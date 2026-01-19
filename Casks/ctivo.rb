@@ -11,8 +11,8 @@ cask "ctivo" do
 
   zap trash: [
     "~/Library/Application Support/com.cTiVo.cTiVo",
-    "~/Library/Caches/com.cTiVo.cTiVo",
     "~/Library/Caches/com.crashlytics.data/com.cTiVo.cTiVo",
+    "~/Library/Caches/com.cTiVo.cTiVo",
     "~/Library/Caches/io.fabric.sdk.mac.data/com.cTiVo.cTiVo",
     "~/Library/Cookies/com.cTiVo.cTiVo.binarycookies",
     "~/Library/Logs/cTiVo",

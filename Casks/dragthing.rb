@@ -8,12 +8,12 @@ cask "dragthing" do
   desc "Desktop organizer"
   homepage "https://www.dragthing.com/"
 
-  deprecate! date: "2025-12-31", because: "32-bit application"
-
   livecheck do
     url "https://www.dragthing.com/english/download.html"
     regex(%r{href=.*?/DragThing-(\d+(?:\.\d+)*)\.dmg}i)
   end
+
+  deprecate! date: "2025-12-31", because: "32-bit application"
 
   app "DragThing.app"
 end

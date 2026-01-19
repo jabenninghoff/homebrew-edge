@@ -8,11 +8,11 @@ cask "canoscan-toolbox" do
   desc "Scanner software"
   homepage "https://www.usa.canon.com/internet/portal/us/home/support/details/scanners/support-scanners-canoscan-series/canoscan-lide-500f"
 
-  deprecate! date: "2025-12-31", because: "32-bit application"
-
   livecheck do
     skip "legacy version"
   end
+
+  deprecate! date: "2025-12-31", because: "32-bit application"
 
   pkg "CanoScan Toolbox4.9.3.4 Installer.pkg"
 

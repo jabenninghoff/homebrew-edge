@@ -20,7 +20,7 @@ cask "colossus" do
   end
 
   uninstall_postflight do
-    FileUtils.rm_f("/Applications/Colossus")
+    FileUtils.rm("/Applications/Colossus")
   end
 
   caveats do
