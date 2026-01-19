@@ -14,8 +14,8 @@ cask "pdnu" do
   app "PDNU.app"
 
   zap trash: [
-    "~/Library/Library/Saved Application State/com.cyberpower.PDNU.savedState",
     "~/Library/Preferences/com.cyberpower.PDNU.plist",
+    "~/Library/Saved Application State/com.cyberpower.PDNU.savedState",
   ]
 
   caveats do
