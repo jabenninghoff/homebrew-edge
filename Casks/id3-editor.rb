@@ -7,6 +7,11 @@ cask "id3-editor" do
   desc "MP3 and AIFF ID3 tag editor"
   homepage "http://www.pa-software.com/id3editor/"
 
+  livecheck do
+    url :homepage
+    regex(%r{file=ID3Editor\.arm\.(\d+(?:\.\d+)+)\.dmg}i)
+  end
+
   depends_on macos: ">= :big_sur"
 
   app "ID3 Editor.app"
