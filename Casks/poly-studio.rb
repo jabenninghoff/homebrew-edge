@@ -10,7 +10,12 @@ cask "poly-studio" do
 
   livecheck do
     # https://info.lens.poly.com/lens-dt-rn has incomplete version info
-    skip "Homepage version API not supported"
+    # use Atom feed to detect newer versions
+    url "https://info.lens.poly.com/lens-dt-rn/atom.xml"
+    regex(/version-(\d+(?:\.\d+)+)/i)
+    strategy :xml do |xml, regex|
+      xml.get_elements("feed//entry//id").map { |item| item.text[regex, 1] }
+    end
   end
 
   depends_on macos: ">= :sonoma"
