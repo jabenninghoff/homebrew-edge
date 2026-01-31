@@ -1,8 +1,8 @@
 cask "ctivo" do
-  version "3.6.3"
-  sha256 "5153e254d764297322887e96c13a56568d17732541e3536db879f044de422780"
+  version "3.6.5"
+  sha256 "b9fe2eee97a88cb23806542c61a4d2ebf09cda59e8a6b8416ef81bc5685da260"
 
-  url "https://github.com/mackworth/cTiVo/releases/download/#{version}/cTiVo.#{version}.zip"
+  url "https://github.com/mackworth/cTiVo/releases/download/#{version}/cTiVo-#{version}.zip"
   name "cTiVo"
   desc "Download and convert Tivo shows"
   homepage "https://github.com/mackworth/cTiVo"
