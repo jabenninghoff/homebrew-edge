@@ -1,6 +1,6 @@
 cask "ctivo" do
   version "3.6.5"
-  sha256 "b9fe2eee97a88cb23806542c61a4d2ebf09cda59e8a6b8416ef81bc5685da260"
+  sha256 "4c9ff3ace390bd4afc4f988fd2830435d9afa0ae2a052a12771fe61789bd309f"
 
   url "https://github.com/mackworth/cTiVo/releases/download/#{version}/cTiVo-#{version}.zip"
   name "cTiVo"
