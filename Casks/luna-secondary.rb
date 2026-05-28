@@ -1,6 +1,6 @@
 cask "luna-secondary" do
-  version "5.3.6,4927"
-  sha256 "39cfeb7e2aa61e1c9065c35f5f0181f3f6944c394d30d52e6d58d1678b844168"
+  version "5.3.7,4995"
+  sha256 "bd8eb08b6f99c6b670b49902f72c87bf144e12cbbe09321f9a104889849f0d7c"
 
   url "https://downloads.astropad.com/luna-secondary/mac/LunaSecondary-#{version.csv.first}.#{version.csv.second}.dmg"
   name "Luna Secondary"
@@ -11,6 +11,8 @@ cask "luna-secondary" do
     url "https://s3.lunadisplay.com/downloads/luna-secondary-sparkle.xml"
     strategy :sparkle
   end
+
+  depends_on :macos
 
   app "Luna Secondary.app"
 
