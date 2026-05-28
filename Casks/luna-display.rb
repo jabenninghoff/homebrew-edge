@@ -1,6 +1,6 @@
 cask "luna-display" do
-  version "5.3.6,4927"
-  sha256 "095d28b8e21c5f0997ce67963b5d72936ebf29140f4d341a71f162df6099658c"
+  version "5.3.7,4995"
+  sha256 "7f631486c823b269f0c4e65b98aa3bb2e2713b1a1e0cbabc572529b8aa2cd1b1"
 
   url "https://downloads.astropad.com/luna/mac/LunaDisplay-#{version.csv.first}.#{version.csv.second}.dmg"
   name "Luna Display"
@@ -11,6 +11,8 @@ cask "luna-display" do
     url "https://s3.lunadisplay.com/downloads/sparkle.xml"
     strategy :sparkle
   end
+
+  depends_on :macos
 
   app "Luna Display.app"
 
