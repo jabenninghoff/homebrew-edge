@@ -1,5 +1,5 @@
 cask "battle-net" do
-  version "1.19.1.3215"
+  version "1.19.2.3218"
   sha256 :no_check
 
   language "en", default: true do
