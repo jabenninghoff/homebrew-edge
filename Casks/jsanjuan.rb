@@ -11,6 +11,8 @@ cask "jsanjuan" do
     skip "legacy version"
   end
 
+  depends_on :macos
+
   app "JSanJuan_v#{version.no_dots}.jar"
 
   caveats do

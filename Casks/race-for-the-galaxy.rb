@@ -11,5 +11,7 @@ cask "race-for-the-galaxy" do
     skip "legacy version"
   end
 
+  depends_on :macos
+
   app "Race for the Galaxy.app"
 end

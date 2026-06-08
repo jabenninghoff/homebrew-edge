@@ -9,5 +9,7 @@ cask "nicecast" do
 
   deprecate! date: "2025-12-31", because: "32-bit application"
 
+  depends_on :macos
+
   app "Nicecast.app"
 end

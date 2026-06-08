@@ -13,6 +13,8 @@ cask "magic-window-screen-saver" do
     regex(/Download Magic Window Mac Screen Saver Plug-in \(v(\d+(?:\.\d+)+)\)/i)
   end
 
+  depends_on :macos
+
   screen_saver "Magic Window.saver"
 
   caveats <<~EOS

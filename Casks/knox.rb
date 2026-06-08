@@ -12,6 +12,8 @@ cask "knox" do
     skip "legacy version"
   end
 
+  depends_on :macos
+
   app "Knox.app"
 
   zap trash: [

@@ -11,6 +11,7 @@ cask "arq@5" do
 
   auto_updates true
   conflicts_with cask: "arq"
+  depends_on :macos
 
   app "Arq.app"
 

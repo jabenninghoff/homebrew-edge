@@ -14,6 +14,8 @@ cask "canoscan-lide-500f" do
 
   deprecate! date: "2025-12-31", because: "32-bit application"
 
+  depends_on :macos
+
   pkg "ScanGear CS 11.2 Eng_Installer.pkg"
 
   uninstall kext:    "jp.co.canon.iokit.CNQL2410_ClassicNotSeize",

@@ -12,6 +12,8 @@ cask "growlnotify" do
     skip "legacy version"
   end
 
+  depends_on :macos
+
   pkg "GrowlNotify.pkg"
 
   uninstall pkgutil: "info.growl.growlnotify.*pkg"

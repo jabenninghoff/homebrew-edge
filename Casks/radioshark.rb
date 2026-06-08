@@ -9,6 +9,8 @@ cask "radioshark" do
 
   deprecate! date: "2025-12-31", because: :no_longer_available
 
+  depends_on :macos
+
   pkg "radioSHARK.pkg"
 
   uninstall pkgutil: "com.griffintechnology.radioSHARK"

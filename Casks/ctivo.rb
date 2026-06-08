@@ -7,6 +7,8 @@ cask "ctivo" do
   desc "Download and convert Tivo shows"
   homepage "https://github.com/mackworth/cTiVo"
 
+  depends_on :macos
+
   app "cTiVo.app"
 
   zap trash: [

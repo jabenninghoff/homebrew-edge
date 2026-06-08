@@ -12,6 +12,7 @@ cask "qmc2-sdlmame" do
 
   conflicts_with cask: "qmc2"
   depends_on formula: "mame"
+  depends_on :macos
 
   app "qmc2v#{version}-#{arch}/qmc2-sdlmame.app"
   artifact "qmc2v#{version}-#{arch}/qmc2", target: "/Library/Application Support/qmc2"

@@ -8,7 +8,7 @@ cask "transcriptions" do
   desc "Text editor for fast manual transcription"
   homepage "https://transcriptions.dev/"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Transcriptions.app"
 

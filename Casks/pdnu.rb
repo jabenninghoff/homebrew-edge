@@ -11,6 +11,8 @@ cask "pdnu" do
     skip "legacy version"
   end
 
+  depends_on :macos
+
   app "PDNU.app"
 
   zap trash: [

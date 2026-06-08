@@ -9,5 +9,7 @@ cask "subcleaner" do
 
   deprecate! date: "2025-12-31", because: :no_longer_available
 
+  depends_on :macos
+
   app "SubCleaner.app"
 end

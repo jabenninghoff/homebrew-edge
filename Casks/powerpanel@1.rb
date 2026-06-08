@@ -12,6 +12,8 @@ cask "powerpanel@1" do
     skip "legacy version"
   end
 
+  depends_on :macos
+
   app "PowerPanel.app"
 
   uninstall launchctl: "com.cpsww.ppupsd",

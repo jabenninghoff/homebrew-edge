@@ -18,7 +18,7 @@ cask "poly-studio" do
     end
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   pkg "PolyStudio-#{version}.pkg"
 

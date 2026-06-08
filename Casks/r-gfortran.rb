@@ -22,7 +22,7 @@ cask "r-gfortran" do
     end
   end
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   pkg "gfortran-#{version.csv.first}-universal.pkg"
 

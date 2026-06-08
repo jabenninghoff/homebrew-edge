@@ -15,5 +15,7 @@ cask "dragthing" do
 
   deprecate! date: "2025-12-31", because: "32-bit application"
 
+  depends_on :macos
+
   app "DragThing.app"
 end

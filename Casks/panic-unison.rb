@@ -11,6 +11,8 @@ cask "panic-unison" do
     skip "legacy version"
   end
 
+  depends_on :macos
+
   app "Unison.app"
 
   caveats do

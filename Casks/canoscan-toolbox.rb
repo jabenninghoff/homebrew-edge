@@ -14,6 +14,8 @@ cask "canoscan-toolbox" do
 
   deprecate! date: "2025-12-31", because: "32-bit application"
 
+  depends_on :macos
+
   pkg "CanoScan Toolbox4.9.3.4 Installer.pkg"
 
   uninstall pkgutil: 'com.canon.CanoScan\ Toolbox\ 4.9.3',
