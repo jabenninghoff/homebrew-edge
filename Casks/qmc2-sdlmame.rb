@@ -11,6 +11,11 @@ cask "qmc2-sdlmame" do
   desc "GUI front-end for MAME"
   homepage "https://github.com/estefan3112/qmc2-mame-fe-MacOS"
 
+  livecheck do
+    url :url
+    regex(/v(\d+(v\d+)?)$/i)
+  end
+
   conflicts_with cask: "qmc2"
   depends_on formula: "mame"
   depends_on :macos

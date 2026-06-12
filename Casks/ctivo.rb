@@ -8,6 +8,11 @@ cask "ctivo" do
   desc "Download and convert Tivo shows"
   homepage "https://github.com/mackworth/cTiVo"
 
+  livecheck do
+    url "https://raw.github.com/mackworth/cTiVo/master/update/sparklecast.xml"
+    strategy :sparkle, &:short_version
+  end
+
   depends_on :macos
 
   app "cTiVo.app"

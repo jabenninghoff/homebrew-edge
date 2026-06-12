@@ -9,6 +9,10 @@ cask "transcriptions" do
   desc "Text editor for fast manual transcription"
   homepage "https://transcriptions.dev/"
 
+  livecheck do
+    url :url
+  end
+
   depends_on macos: :monterey
 
   app "Transcriptions.app"

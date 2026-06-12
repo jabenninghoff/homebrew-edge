@@ -9,6 +9,10 @@ cask "sublercli" do
   desc "Command-line version of Subler"
   homepage "https://bitbucket.org/galad87/sublercli/"
 
+  livecheck do
+    url :url
+  end
+
   binary "SublerCLI"
 
   # No zap stanza required
