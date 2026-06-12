@@ -1,4 +1,4 @@
-# TODO: fix homebrew-cask, passes Gatekeeper
+# edge because: :fails_gatekeeper_check
 # homebrew-cask: disable! date: "2026-09-01", because: :fails_gatekeeper_check
 cask "sublercli" do
   version "1.5.1"
