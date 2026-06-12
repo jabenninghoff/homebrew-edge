@@ -1,3 +1,4 @@
+# TODO: resubmit to homebrew-cask
 cask "luna-secondary" do
   version "5.3.8,4999"
   sha256 "323ba42f288f301c8d015121a0cf4e4676b26a9d2424e1618f486a823eece98e"

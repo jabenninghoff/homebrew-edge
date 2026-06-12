@@ -1,3 +1,5 @@
+# TODO: fix homebrew-cask, passes Gatekeeper
+# homebrew-cask: disable! date: "2026-09-01", because: :fails_gatekeeper_check
 cask "sublercli" do
   version "1.5.1"
   sha256 "30776e73cc51b858b1ff3efa7b4d4eae78832986b9147de2de6effada7e9ef14"

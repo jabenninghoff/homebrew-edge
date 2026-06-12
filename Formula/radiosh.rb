@@ -1,3 +1,4 @@
+# edge because: :unmaintained
 class Radiosh < Formula
   desc "Command-line controller for the Griffin radioSHARK"
   homepage "https://www.floodgap.com/software/radiosh/"

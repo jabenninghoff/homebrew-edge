@@ -1,3 +1,4 @@
+# edge because: :fails_gatekeeper_check, legacy version
 cask "pdnu" do
   version "1.1,18070002-10"
   sha256 "24097099e3798669854d36dd68031b8ddb6f0498dfe7e96544379ac2f77ff037"

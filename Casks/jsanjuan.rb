@@ -1,3 +1,4 @@
+# edge because: :fails_gatekeeper_check, :unmaintained
 cask "jsanjuan" do
   version "1.1"
   sha256 "cb2fc39b9c0b8dc2c34d87aec0e71c51945aff8364d3d905081418b163374261"

@@ -1,3 +1,4 @@
+# edge because: GitHub fork, notability
 cask "r-gfortran" do
   version "14.2,2.1"
   sha256 "ec462d465f093eeee0623d2b5d327bd1038313b985034b766462957e36d7aadd"

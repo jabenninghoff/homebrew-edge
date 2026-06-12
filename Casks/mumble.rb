@@ -1,3 +1,5 @@
+# TODO: fix homebrew-cask, passes Gatekeeper
+# homebrew-cask: disable! date: "2026-09-01", because: :fails_gatekeeper_check
 cask "mumble" do
   version "1.5.901"
   sha256 "9618a7abf0da3743e1d8c13ddb45ea6524fcfff001e844d9bb95a86867aa6f47"

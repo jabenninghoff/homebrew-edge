@@ -1,3 +1,4 @@
+# edge because: GitHub fork, notability
 cask "qmc2-sdlmame" do
   arch arm: "AppleSilicon", intel: "MacIntel"
 

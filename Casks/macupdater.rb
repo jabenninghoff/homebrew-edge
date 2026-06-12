@@ -1,3 +1,5 @@
+# edge because: :discontinued
+# homebrew-cask: deprecate! date: "2026-01-01", because: :discontinued
 cask "macupdater" do
   version "3.5.0"
   # required as upstream package is regularly updated in-place https://github.com/Homebrew/homebrew-cask/pull/182188#issuecomment-2284199515

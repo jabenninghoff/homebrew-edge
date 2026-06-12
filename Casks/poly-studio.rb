@@ -1,3 +1,4 @@
+# edge because: no viable livecheck
 cask "poly-studio" do
   version "5.0.0.889"
   sha256 "495455e197648d05708caa1a54e79cafe4b6d30605a7d552dcb651e506b817b6"

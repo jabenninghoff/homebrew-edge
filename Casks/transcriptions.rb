@@ -1,3 +1,4 @@
+# edge because: notability
 cask "transcriptions" do
   version "1.4"
   sha256 "8fcde56fe192a5c99272fadc3d3069747fb765ea3c59d3416fc1c9057446caea"

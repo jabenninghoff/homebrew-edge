@@ -1,3 +1,4 @@
+# edge because: :unmaintained
 class Apg < Formula
   desc "Automated Password Generator"
   homepage "https://github.com/jabenninghoff/apg"

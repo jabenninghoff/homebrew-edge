@@ -1,3 +1,4 @@
+# TODO: resubmit to homebrew-cask
 cask "luna-display" do
   version "5.3.8,4999"
   sha256 "71a05fdfad47ce6fbd2be5dd4b95f192a4ddff0b80d1e4536ba12ccb91a0604f"

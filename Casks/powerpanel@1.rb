@@ -1,3 +1,4 @@
+# edge because: legacy version
 cask "powerpanel@1" do
   version "1.1.0"
   sha256 "9ef3160ad516cf246647a11bdbeaa756a98b2c0d9915ccabbf0d6cc72bebdf51"
