@@ -9,7 +9,7 @@ cask "luna-display" do
   homepage "https://astropad.com/product/lunadisplay/"
 
   livecheck do
-    url "https://s3.lunadisplay.com/downloads/sparkle.xml"
+    url "https://downloads.astropad.com/luna/mac/sparkle.xml"
     strategy :sparkle
   end
 
