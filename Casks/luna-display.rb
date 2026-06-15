@@ -1,4 +1,6 @@
 # TODO: resubmit to homebrew-cask
+# see: https://github.com/Homebrew/homebrew-cask/pull/267236
+#      https://apps.apple.com/us/app/luna-display/id1250259715
 cask "luna-display" do
   version "5.3.8,4999"
   sha256 "71a05fdfad47ce6fbd2be5dd4b95f192a4ddff0b80d1e4536ba12ccb91a0604f"
