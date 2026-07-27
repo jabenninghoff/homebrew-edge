@@ -1,4 +1,6 @@
 # edge because: :repo_archived
+# homebrew-core: deprecate! date: "2026-07-17", because: :repo_archived
+# homebrew-core: disable! date: "2027-07-17", because: :repo_archived
 class MinioMc < Formula
   desc "Replacement for ls, cp and other commands for object storage"
   homepage "https://github.com/minio/mc"
