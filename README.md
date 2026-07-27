@@ -9,8 +9,9 @@ Repository for [Homebrew](https://brew.sh/) formulae or Casks that are experimen
 
 ## Installation
 
-Install using `brew tap`:
+Install using `brew tap` and `brew trust`:
 
 ```sh
-$ brew tap jabenninghoff/edge
+brew tap jabenninghoff/edge
+brew trust --tap jabenninghoff/edge
 ```
