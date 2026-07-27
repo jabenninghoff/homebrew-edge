@@ -1,4 +1,5 @@
 # edge because: :no_longer_meets_criteria (not available over HTTPS)
+# homebrew-cask: # Artifact not available over HTTPS
 # homebrew-cask: disable! date: "2025-12-23", because: :no_longer_meets_criteria
 cask "id3-editor" do
   version "1.29.51"
