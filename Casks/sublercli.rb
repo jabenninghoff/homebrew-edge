@@ -13,6 +13,8 @@ cask "sublercli" do
     url :url
   end
 
+  depends_on :macos
+
   binary "SublerCLI"
 
   # No zap stanza required
