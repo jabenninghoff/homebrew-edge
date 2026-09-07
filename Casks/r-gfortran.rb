@@ -3,8 +3,7 @@ cask "r-gfortran" do
   version "14.2,2.1"
   sha256 "ec462d465f093eeee0623d2b5d327bd1038313b985034b766462957e36d7aadd"
 
-  url "https://github.com/R-macos/gcc-#{version.major}-branch/releases/download/gcc-#{version.csv.first}-darwin-r#{version.csv.second}/gfortran-#{version.csv.first}-universal.pkg",
-      verified: "github.com/R-macos/gcc-#{version.major}-branch/releases/download/"
+  url "https://github.com/R-macos/gcc-#{version.major}-branch/releases/download/gcc-#{version.csv.first}-darwin-r#{version.csv.second}/gfortran-#{version.csv.first}-universal.pkg"
   name "r-gfortran"
   desc "GNU Fortran release used by CRAN"
   homepage "https://mac.r-project.org/tools/"

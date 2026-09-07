@@ -3,8 +3,7 @@ cask "poly-studio" do
   version "5.1.0.1803"
   sha256 "a3c003ed06fec6367f4b07249f470c8dcf5b693eedbfb26539f8d0693c3b4d43"
 
-  url "https://swupdate.lens.poly.com/lens-desktop-mac/#{version}/#{version}/PolyStudio-#{version}.dmg",
-      verified: "swupdate.lens.poly.com/lens-desktop-mac/"
+  url "https://swupdate.lens.poly.com/lens-desktop-mac/#{version}/#{version}/PolyStudio-#{version}.dmg"
   name "poly-studio"
   desc "Configuration software for Poly devices"
   homepage "https://www.hp.com/us-en/poly/software-and-services/software/poly-lens/app.html"

@@ -3,8 +3,7 @@ cask "transcriptions" do
   version "1.4"
   sha256 "8fcde56fe192a5c99272fadc3d3069747fb765ea3c59d3416fc1c9057446caea"
 
-  url "https://github.com/soleil-alpin/Transcriptions/releases/download/v#{version}/Transcriptions.app.zip",
-      verified: "github.com/soleil-alpin/Transcriptions/"
+  url "https://github.com/soleil-alpin/Transcriptions/releases/download/v#{version}/Transcriptions.app.zip"
   name "Transcriptions"
   desc "Text editor for fast manual transcription"
   homepage "https://transcriptions.dev/"
