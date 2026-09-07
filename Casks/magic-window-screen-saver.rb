@@ -3,8 +3,7 @@ cask "magic-window-screen-saver" do
   version "3.1"
   sha256 :no_check
 
-  url "https://magicwindowmac.sfo2.cdn.digitaloceanspaces.com/apps/MagicWindowScreenSaverPlugin.dmg",
-      verified: "magicwindowmac.sfo2.cdn.digitaloceanspaces.com"
+  url "https://magicwindowmac.sfo2.cdn.digitaloceanspaces.com/apps/MagicWindowScreenSaverPlugin.dmg"
   name "Magic Window Screen Saver"
   desc "Screen saver plug-in"
   homepage "https://www.jetsoncreative.com/screensaverplugin/"
