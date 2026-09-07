@@ -16,12 +16,8 @@ cask "colossus" do
   # stage_only and link to the staged path to work around the lack of a subfolder that can be targeted by suite
   stage_only true
 
-  postflight do
-    FileUtils.ln_sf(staged_path.to_s, "/Applications/Colossus")
-  end
-
-  uninstall_postflight do
-    FileUtils.rm("/Applications/Colossus")
+  postflight_steps do
+    symlink "{{HOMEBREW_PREFIX}}/Caskroom/colossus/#{version}/", "/Applications/Colossus", remove_on_uninstall: true
   end
 
   caveats do
