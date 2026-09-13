@@ -15,3 +15,20 @@ Install using `brew tap` and `brew trust`:
 brew tap jabenninghoff/edge
 brew trust --tap jabenninghoff/edge
 ```
+
+Install casks and formulae using `brew install`:
+
+`brew install jabenninghoff/edge/<formula>`
+
+Or `brew tap jabenninghoff/edge` and then `brew install <formula>`.
+
+Or, in a `brew bundle` `Brewfile`:
+
+```ruby
+tap "jabenninghoff/edge"
+brew "<formula>"
+```
+
+## Documentation
+
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
