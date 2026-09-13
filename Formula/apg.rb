@@ -6,6 +6,9 @@ class Apg < Formula
   sha256 "33a3efa2d02ffb95e00175c1e23f9f32f20a97889087e67f6086d4fa4c3854a1"
   license "BSD-3-Clause"
 
+  # build fails on Linux x86_64
+  depends_on :macos
+
   def install
     system "make", "standalone",
                    "CC=#{ENV.cc}",
