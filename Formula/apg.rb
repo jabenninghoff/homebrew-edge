@@ -6,6 +6,12 @@ class Apg < Formula
   sha256 "33a3efa2d02ffb95e00175c1e23f9f32f20a97889087e67f6086d4fa4c3854a1"
   license "BSD-3-Clause"
 
+  bottle do
+    root_url "https://ghcr.io/v2/jabenninghoff/edge"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "9e255243bb1f6561034399b418bd5c90f4949bde7cca9173fa463a3882134ad8"
+  end
+
   depends_on :macos # build fails on Linux x86_64
 
   def install
