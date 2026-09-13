@@ -13,6 +13,7 @@ class Radiosh < Formula
   end
 
   depends_on xcode: :build
+  depends_on :macos # build fails on Linux x86_64
 
   def install
     system "make", "radiosh64"
