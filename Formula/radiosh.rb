@@ -1,4 +1,3 @@
-# tmp
 # edge because: :unmaintained
 class Radiosh < Formula
   desc "Command-line controller for the Griffin radioSHARK"
