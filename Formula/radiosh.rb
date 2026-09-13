@@ -12,6 +12,13 @@ class Radiosh < Formula
     regex(%r{http://www\.floodgap.com/software/radiosh/ -- version (\d+(?:\.\d+)+)}i)
   end
 
+  bottle do
+    root_url "https://ghcr.io/v2/jabenninghoff/edge"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "a8269e398dd3c2e555f8b4a23aec34622e88f8c26324db1616642e63d38963c3"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "36385f2c7bb4e94180bb2d64d63d3c42feb4d1dfe02f4f083c5fc9b24770b3e7"
+  end
+
   depends_on xcode: :build
   depends_on :macos # build fails on Linux x86_64
 
