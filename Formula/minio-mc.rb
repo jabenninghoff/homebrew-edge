@@ -1,4 +1,3 @@
-# tmp
 # edge because: :repo_archived
 # homebrew-core: deprecate! date: "2026-07-17", because: :repo_archived
 # homebrew-core: disable! date: "2027-07-17", because: :repo_archived
