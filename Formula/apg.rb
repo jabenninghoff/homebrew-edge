@@ -8,7 +8,7 @@ class Apg < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/jabenninghoff/edge"
-    rebuild 2
+    rebuild 3
     sha256 cellar: :any_skip_relocation, arm64_tahoe:   "6918a6a6b876a07c9b080c958bee50b451ccdc974369f1f4bc6435ea142ace78"
     sha256 cellar: :any_skip_relocation, arm64_sequoia: "6320877016226fec6cf989c4c860a259cccaa799291ad1cc5dcbf7801c2f18b3"
   end
