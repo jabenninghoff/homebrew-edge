@@ -21,9 +21,10 @@ class MinioMc < Formula
   bottle do
     root_url "https://ghcr.io/v2/jabenninghoff/edge"
     rebuild 2
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "0bb41e9719cf5cbd3889bcbf64827eb0e5d5f40e5de0afb96fd42f36eec5ede3"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "202a965faae752812e4ac5612a6b3d8235978d8a7f2754e3f5037b4771a60d63"
-    sha256 cellar: :any,                 x86_64_linux:  "91b460835c5b491782147e1e4c2f21fa0b2910d8c23ac35e9f9103f6090d29d9"
+    sha256 cellar: :any_skip_relocation, arm64_golden_gate: "fe0f9d7812bb33e757c289d2791d72b7c467c801c4391365e7b55c59f60e8521"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:       "9eef01e604922b7bfa6deddb2bd8a0ded16d29ea113a9b07056a4673b0d2608f"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia:     "67828ab3d10564ac368eabaf325aed57f09dddb25eb3e1242086bf9d1509a925"
+    sha256 cellar: :any,                 x86_64_linux:      "554724ea555a89002a8eff4a482bdd80a1897a6ad2e8abf89cb101f20a48e0c4"
   end
 
   depends_on "go" => :build
