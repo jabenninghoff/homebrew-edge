@@ -15,8 +15,9 @@ class Radiosh < Formula
   bottle do
     root_url "https://ghcr.io/v2/jabenninghoff/edge"
     rebuild 2
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "a8269e398dd3c2e555f8b4a23aec34622e88f8c26324db1616642e63d38963c3"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "36385f2c7bb4e94180bb2d64d63d3c42feb4d1dfe02f4f083c5fc9b24770b3e7"
+    sha256 cellar: :any_skip_relocation, arm64_golden_gate: "f293422549592b0a3d9e1634df75ade09dd5444c8c1f309894b48a83774a8360"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:       "3b53a40b1a070d35c20281513425a79c013750204219029a80a0f7b00ee88144"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia:     "3e1482455c792e529d4313f46e3d5f3aebf9607a1449bb27c2465a8312053480"
   end
 
   depends_on xcode: :build
