@@ -9,8 +9,9 @@ class Apg < Formula
   bottle do
     root_url "https://ghcr.io/v2/jabenninghoff/edge"
     rebuild 3
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "6918a6a6b876a07c9b080c958bee50b451ccdc974369f1f4bc6435ea142ace78"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "6320877016226fec6cf989c4c860a259cccaa799291ad1cc5dcbf7801c2f18b3"
+    sha256 cellar: :any_skip_relocation, arm64_golden_gate: "c5b4cd8d6f6deb3cf80bd2a62e637292b1f1a71cb6661f4637bdf095b036405d"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:       "f82061208d654dfa0bf35ab743c689ae82ac3cd6a19779582a09e3725ca80add"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia:     "d1d060414028a1a84a3356a5428b13828c69fecf48adecdd7f00cc6618385a68"
   end
 
   depends_on :macos # build fails on Linux x86_64
