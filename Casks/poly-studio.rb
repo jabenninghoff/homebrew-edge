@@ -1,7 +1,7 @@
 # edge because: no viable livecheck
 cask "poly-studio" do
-  version "5.1.0.1803"
-  sha256 "a3c003ed06fec6367f4b07249f470c8dcf5b693eedbfb26539f8d0693c3b4d43"
+  version "5.2.0.2181"
+  sha256 "e46484d10542c888e507424f1a6bbb636cd7cc6e411c86fbe8eeb943ae9a1ba7"
 
   url "https://swupdate.lens.poly.com/lens-desktop-mac/#{version}/#{version}/PolyStudio-#{version}.dmg"
   name "poly-studio"
