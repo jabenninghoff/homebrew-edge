@@ -28,5 +28,5 @@ cask "r-gfortran" do
 
   uninstall pkgutil: "org.r-project.universal.gfortran"
 
-  # No zap stanza required
+  zap :not_required
 end
