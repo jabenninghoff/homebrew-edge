@@ -4,14 +4,14 @@
 version: 'v0.0.3'
 workflows:
     '.github/workflows/autobump.yml':
-        - 'homebrew/actions@2026.11.09.1'
+        - 'homebrew/actions@2026.11.14.1'
     '.github/workflows/publish.yml':
         - 'actions/attest@v4.2.2'
-        - 'homebrew/actions@2026.11.09.1'
+        - 'homebrew/actions@2026.11.14.1'
     '.github/workflows/tests.yml':
         - 'actions/cache@v6.1.0'
         - 'actions/upload-artifact@v7.0.2'
-        - 'homebrew/actions@2026.11.09.1'
+        - 'homebrew/actions@2026.11.14.1'
 dependencies:
     'actions/attest@v4.2.2':
         ref: 'v4.2.2'
@@ -28,8 +28,8 @@ dependencies:
         commit: 'sha1-cf430e030ddbb5b0abf93d22962f4752f3646cd9'
         owner_id: 44036562
         repo_id: 192625955
-    'homebrew/actions@2026.11.09.1':
-        ref: '2026.11.09.1'
-        commit: 'sha1-63a2d4d8d4193eab3e62b1b782ff3ab8408f5b29'
+    'homebrew/actions@2026.11.14.1':
+        ref: '2026.11.14.1'
+        commit: 'sha1-ceec4e8419bb3c97ce96e9dda7738499ed5f869d'
         owner_id: 1503512
         repo_id: 202511568
